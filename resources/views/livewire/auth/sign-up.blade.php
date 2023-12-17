@@ -1,15 +1,9 @@
   <section class="h-100-vh mb-8">
-      <div class="page-header align-items-start section-height-50 pt-5 pb-11 m-3 border-radius-lg"
-          style="background-image: url('../assets/img/curved-images/curved14.jpg');">
-          <span class="mask bg-gradient-dark opacity-6"></span>
+      <div class="page-header align-items-start section-height-50 pt-5 pb-11 m-3 border-radius-lg">
           <div class="container">
               <div class="row justify-content-center">
                   <div class="col-lg-5 text-center mx-auto">
-                      <h1 class="text-white mb-2 mt-5">{{ __('Welcome!') }}</h1>
-                      <p class="text-lead text-white">
-                          {{ __('Use these awesome forms to login or create new account in your
-                          project for free.') }}
-                      </p>
+                      <h1 class="text-info text-gradient mb-2 mt-5">Cleanin</h1>
                   </div>
               </div>
           </div>
@@ -121,11 +115,11 @@
                                   </label>
                               </div>
                               <div class="text-center">
-                                  <button type="submit" class="btn bg-gradient-dark w-100 my-4 mb-2">Sign up</button>
+                                  <button type="submit" class="btn bg-gradient-info w-100 my-4 mb-2">Sign up</button>
                               </div>
                               <p class="text-sm mt-3 mb-0">{{ __('Already have an account? ') }}<a
                                       href="{{ route('login') }}"
-                                      class="text-dark font-weight-bolder">{{ __('Sign in') }}</a>
+                                      class="text-info text-gradient font-weight-bolder">{{ __('Sign in') }}</a>
                               </p>
                           </form>
 

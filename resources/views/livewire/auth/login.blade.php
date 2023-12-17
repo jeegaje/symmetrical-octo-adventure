@@ -1,15 +1,19 @@
 <section>
-    <div class="page-header section-height-75">
+        <div class="page-header align-items-start section-height-50 mt-5 py-5 m-3 border-radius-lg">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-lg-5 text-center mx-auto">
+                        <h1 class="text-info text-gradient">Cleanin</h1>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div class="container">
             <div class="row">
                 <div class="col-xl-4 col-lg-5 col-md-6 d-flex flex-column mx-auto">
-                    <div class="card card-plain mt-8">
-                        <div class="card-header pb-0 text-left bg-transparent">
-                            <h3 class="font-weight-bolder text-info text-gradient">{{ __('Welcome back') }}</h3>
-                            <p class="mb-0">{{ __('Create a new acount')}}<br></p>
-                            <p class="mb-0">{{__('OR Sign in with these credentials:') }}</p>
-                            <p class="mb-0">{{ __('Email ') }}<b>{{ __('admin@softui.com') }}</b></p>
-                            <p class="mb-0">{{ __('Password ') }}<b>{{ __('secret') }}</b></p>
+                    <div class="card">
+                        <div class="card-header pb-0 text-center bg-transparent">
+                            <h3 class="font-weight-bolder text-info text-gradient">Login</h3>
                         </div>
                         <div class="card-body">
                             <form wire:submit.prevent="login" action="#" method="POST" role="form text-left">
@@ -53,13 +57,6 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <div class="oblique position-absolute top-0 h-100 d-md-block d-none me-n8">
-                        <div class="oblique-image bg-cover position-absolute fixed-top ms-auto h-100 z-index-0 ms-n6"
-                            style="background-image:url('../assets/img/curved-images/curved6.jpg')"></div>
-                    </div>
-                </div>
             </div>
         </div>
-    </div>
 </section>
